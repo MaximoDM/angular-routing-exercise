@@ -1,1 +1,9 @@
-<p>todos works!</p>
+<div class="todos-container">
+  <div class="todo-card" *ngFor="let todo of todos">
+    <h2>{{ todo.title }}</h2>
+    <p>{{ todo.userId }}</p>
+    <p>{{ todo.completed }}</p>
+    <p>{{ todo.id }}</p>
+    <button>See details</button>
+  </div>
+</div>

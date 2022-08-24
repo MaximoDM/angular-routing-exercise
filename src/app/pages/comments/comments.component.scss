@@ -1,0 +1,10 @@
+.comments-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.comment-card {
+  border: 1px solid #ccc;
+  padding: 1rem 1.5rem;
+}

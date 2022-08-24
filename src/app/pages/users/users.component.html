@@ -1,1 +1,9 @@
-<p>users works!</p>
+<div class="users-container">
+  <div class="user-card" *ngFor="let user of users">
+    <h2>{{ user.name }}</h2>
+    <p>{{ user.email }}</p>
+    <p>{{ user.phone }}</p>
+    <p>{{ user.website }}</p>
+    <button>See details</button>
+  </div>
+</div>

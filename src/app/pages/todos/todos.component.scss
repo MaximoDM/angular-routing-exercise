@@ -1,0 +1,10 @@
+.todos-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 1rem 1.5rem;
+}
