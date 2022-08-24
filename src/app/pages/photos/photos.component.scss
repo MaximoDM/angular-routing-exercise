@@ -1,0 +1,12 @@
+.photo-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.photo-card {}
+
+img {
+  width: 100%;
+  height: auto;
+}
